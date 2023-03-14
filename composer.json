@@ -1,7 +1,7 @@
 {
     "name": "webmaxx/wn-form-widgets-plugin",
     "type": "winter-plugin",
-    "description": "Winter CMS plugin for cache",
+    "description": "Winter CMS plugin for form widgets",
     "homepage": "https://github.com/webmaxx/wn-form-widgets-plugin",
     "keywords": ["winter cms", "winter", "cms", "plugin", "form", "widgets"],
     "license": "MIT",
