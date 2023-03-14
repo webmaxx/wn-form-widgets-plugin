@@ -1,0 +1,33 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+
+    icons:
+
+        webmaxx.formwidgets::lang.models.settings.tabs.maps: icon-map-marker
+
+    fields:
+
+        ymaps_api_key:
+            tab: webmaxx.formwidgets::lang.models.settings.tabs.maps
+            label: webmaxx.formwidgets::lang.models.settings.fields.ymaps_api_key.label
+            placeholder: webmaxx.formwidgets::lang.models.settings.fields.ymaps_api_key.placeholder
+            type: sensitive
+            allowCopy: false
+            span: left
+
+        ymaps_api_lang:
+            tab: webmaxx.formwidgets::lang.models.settings.tabs.maps
+            label: webmaxx.formwidgets::lang.models.settings.fields.ymaps_api_lang.label
+            type: dropdown
+            default: ru_RU
+            options:
+                ru_RU: ru_RU
+                en_US: en_US
+                en_RU: en_RU
+                ru_UA: ru_UA
+                uk_UA: uk_UA
+                tr_TR: tr_TR
+            span: right
