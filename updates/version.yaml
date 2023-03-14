@@ -1,2 +1,4 @@
 '1.0.0':
     - 'First version of FormWidgets'
+'1.0.1':
+    - '[Fix] Composer.json descripion'
